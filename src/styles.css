@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Bifocals';
+    src: url('/public/fonts/bifocals/Bifocals-Regular.eot');
+    src: url('/public/fonts/bifocals/Bifocals-Regular.woff') format('woff'),
+        url('/public/fonts/bifocals/Bifocals-Regular.otf') format('opentype'),
+        url('/public/fonts/bifocals/Bifocals-Regular.svg') format('svg');
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #c3ced0;
+    font-family: 'Bifocals', Arial, sans-serif;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.product-viewer-container {
+    position: relative;
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.canvas-container {
+    box-sizing: content-box;
+    border: 5px solid black;
+    width: 50%;
+    height: 90%;
+}
+
+.customise-container {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.customise-options-container {
+    padding-left: 33%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.customise-option {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
